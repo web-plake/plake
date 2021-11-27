@@ -1,5 +1,5 @@
 function yet () {
-  console.log('not yet')
+  return 'not yet'
 }
 
 export { yet }
