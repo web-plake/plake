@@ -19,7 +19,7 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ natrix.node-version }}
+          node-version: ${{ matrix.node-version }}
       - run: yarn install
       - run: yarn build
       - run: yarn test
