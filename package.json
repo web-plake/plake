@@ -1,6 +1,6 @@
 {
   "name": "plake",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a web framework",
   "main": "dist/index.js",
   "types": "./dist/types",
