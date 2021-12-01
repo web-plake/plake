@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "a web framework",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "./dist/types",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
